@@ -1,0 +1,10 @@
+[
+  {
+    "_id": "682cf9c30e63d3954600c685",
+    "id": 12,
+    "imagen": "🍇",
+    "nombre": "Uvas",
+    "importe": 700,
+    "stock": 50
+  }
+]

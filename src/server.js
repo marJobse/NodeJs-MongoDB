@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 //};
 
 app.use((req, res, next) => {
-  res.header("Content-type", "application/json; charset=utf-8"); // tenia "," en "/json," --> error: {invalida media type}
+  res.header("Content-type", "application/json, charset=utf-8"); // tenia "," en "/json," --> error: {invalida media type}
   next();
 });
 
